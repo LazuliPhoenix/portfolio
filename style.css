@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/*main page*/
+body{
+    background-color: #0d1b2a;
+    color: #f1faee;
+    font-size: 1.5rem;
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 30px;
+    border: 7px solid;
+    border-image: linear-gradient(to right, darkorchid, #551a8b) 1;
+   
+}
+
+a{
+    text-decoration: none;
+    color: #551a8b;
+}
+
+a:hover{
+    border-bottom:2px solid #f1faee;
+}
+
+h1{
+    color:#551a8b;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.main{
+    margin-top: 40vh;
+    margin-left: 7vw;
+    margin-bottom: 50vh;
+}
+
+.main p{
+    margin-bottom: 10px;
+}
+
+
+.list li{
+    display: inline;
+    list-style: none;
+    margin-right: 10px;
+    font-size: 27px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+h3, p{
+    margin-bottom: 10px;
+}
+
+
+.article {
+    display:block;
+    border: 2px solid #551a8b;
+    border-radius: 25px;
+    padding: 15px;
+    padding-left:20px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px rgb(10, 10, 10);
+}
+
+#projects{
+    margin-top: 40px;
+}
+
+.project {
+    border: 2px solid #551a8b;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px rgb(10, 10, 10);
+}
+
+footer{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+form{
+    border: 5px solid #551a8b;
+    border-radius: 25px ;
+    padding: 25px;
+    width: 100%;
+    box-shadow: 5px 5px 5px rgb(10, 10, 10);
+}
+
+
+.contact-button{
+    font-size: 20px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: #551a8b;
+    color: #f1faee;
+    border: none;
+}
+
+div.form-contact {
+    display: table-row;
+}
+.developed{
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.links>a{
+    border: none;
+}
+
+
+
+
+/*about page*/
+.logo{
+   content: '\f6cf';
+   font-family: "Font Awesome 6 free"; 
+   font-weight: 900;
+   font-size: 40px;
+}
+
+.logo>a{
+    border: none;
+}
+
+.about{
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.container-3{
+    display: flex;
+
+}
+.container-3 li{
+    list-style: none;
+}
+
+.container-3 ul:nth-child(2){
+    margin-left: 50px;
+}
+
+
+
